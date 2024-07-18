@@ -10,6 +10,7 @@ const cardData = [
     id: 1,
     title: "1600 Survival",
     body: "Latex & Proofs",
+    courseCode: "CIS 1600",
     imageUrl: cis1600Image,
     linkToProject: "https://chat.openai.com/g/g-E19wQGXTB-1600-survival",
   },
@@ -17,6 +18,7 @@ const cardData = [
     id: 2,
     title: "Physics Pal",
     body: "Mechanical Physics",
+    courseCode: "PHYS 0150",
     imageUrl: phys0150Image,
     linkToProject: "https://chat.openai.com/g/g-627ChRtQt-phys-0150-ai",
   },
@@ -24,6 +26,7 @@ const cardData = [
     id: 3,
     title: "Oh! Camel",
     body: "Ocaml Co-Pilot",
+    courseCode: "CIS 1200",
     imageUrl: cis1200Image,
     linkToProject: "https://chat.openai.com/g/g-TDDkupRFD-oh-camel",
   },
@@ -31,6 +34,7 @@ const cardData = [
     id: 4,
     title: "CalcBlue Bot",
     body: "Math Wizard",
+    courseCode: "MATH 1410",
     imageUrl: calcblueImage,
     linkToProject: "https://chat.openai.com/g/g-hC9COEzas-calc-blue-bot",
   },
@@ -55,6 +59,7 @@ const App = () => {
             key={card.id}
             title={card.title}
             body={card.body}
+            courseCode={card.courseCode}
             imageUrl={card.imageUrl}
             linkToProject={card.linkToProject}
           />
