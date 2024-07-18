@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://INTSEAN.github.io/PennGPT",
+  "homepage": "https://INTSEAN.github.io/PennGPT.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
